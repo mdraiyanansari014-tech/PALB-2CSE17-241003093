@@ -1,3 +1,4 @@
+#  Given an array arr, rotate the array by one position in clockwise direction. 
 def kth_smallest(arr, k):
    
     return sorted(arr)[k - 1]
