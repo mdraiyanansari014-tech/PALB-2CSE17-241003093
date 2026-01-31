@@ -1,4 +1,4 @@
-#  Given an array arr, rotate the array by one position in clockwise direction. 
+# Given an integer array arr[] and an integer k, your task is to find and return the k smallest element in given array.
 def kth_smallest(arr, k):
    
     return sorted(arr)[k - 1]
