@@ -1,5 +1,4 @@
-#  You are given an integer array arr[]. You need to find the maximum sum of a 
-# subarray (containing at least one element) in the array arr[].
+# You are given two arrays a[] and b[], return the Union of both the arrays in any order.
 def find_union(arr1, arr2):
     return sorted(list(set(arr1) | set(arr2)))
 
