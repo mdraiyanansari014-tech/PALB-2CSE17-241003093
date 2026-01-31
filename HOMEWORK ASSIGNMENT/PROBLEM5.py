@@ -1,4 +1,4 @@
-#  Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. 
+# Given an array arr[]. The task is to find the largest element and return it. 
 def find_largest(arr):
     largest = arr[0]
  
